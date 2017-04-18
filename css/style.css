@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+/*---------------------------------------
+    リセットCSS（編集不要）
+----------------------------------------*/
+html{overflow-y:scroll;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;}table{border-collapse:collapse;border-spacing:0;}caption,th{text-align:left;}q:before,q:after{content:'';}object,embed{vertical-align:top;}hr,legend{display:none;}h1,h2,h3,h4,h5,h6{font-size:100%;}img,abbr,acronym,fieldset{border:0;}ul li{list-style-type:none;}a,label{cursor:pointer;}img{vertical-align:bottom;margin:0;padding:0;}
+
+
+body {
+  color: #454545;
+  font-size: 76%;
+}
+/*----------------------------------------
+    ヘッダー
+----------------------------------------*/
+
+/*  小見出し
+----------------------------------------*/
+.inner {
+  width: 980px;
+  margin: 0 auto;
+}
+
+
+#header {
+  padding: 10px 0;
+}
+#header .author {
+  font-size: 134%;
+}
+#header h1 {
+  font-size: 159%;
+}
+/*----------------------------------------
+    フッター
+----------------------------------------*/
+
+/*  小見出し
+----------------------------------------*/
+
+/*  topic_path
+----------------------------------------*/
+.topic_path ul {
+  padding: 20px 0;
+  overflow: hidden;
+}
+.topic_path ul li {
+  float: left;
+  font-size: 134%;
+  color: #cfcfcf;
+}
+.topic_path ul li + li::before {
+  content: "\003e";
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #1a1a1a;
+}
+.topic_path ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #1a1a1a;
+}
+.topic_path ul li a:hover {
+  text-decoration: underline;
+}
+
+
+.title_style {
+  background: #e6e6e6;
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 117%;
+}
+
+.row_list {
+  overflow: hidden;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/*----------------------------------------
+    大見出し
+----------------------------------------*/
+
+/*  小見出し
+----------------------------------------*/
+#tab {
+  overflow: hidden;
+}
+#tab li {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  background: #e8e7e7;
+  box-sizing: border-box;
+}
+#tab li.current {
+  background: #cfcfcf;
+}
+#tab li a {
+  color: #454545;
+  text-decoration: none;
+  font-size: 117%;
+}
+
+/*  contents
+----------------------------------------*/
+.content_toppic {
+  margin-top: 40px;
+}
+
+.section a {
+  display: inline-block;
+  border-radius: 1px;
+  margin: 5px 0;
+  margin-right: 5px;
+  font-size: 12px;
+  padding: 3px 5px;
+  background-color: #454545;
+  color: #fff;
+  text-decoration: none;
+}

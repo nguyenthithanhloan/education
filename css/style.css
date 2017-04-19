@@ -73,7 +73,49 @@ body {
   font-size: 117%;
 }
 
+
+
+/*  .list_anchor
+----------------------------------------*/
+.list_anchor ul {
+  overflow: hidden;
+}
+.list_anchor ul li {
+  float: left;
+}
+.list_anchor ul li a {
+  display: inline-block;
+  border-radius: 1px;
+  margin: 5px 0;
+  margin-right: 8px;
+  font-size: 100%;
+  padding: 3px 5px;
+  background-color: #454545;
+  color: #fff;
+  text-decoration: none;
+}
+
 .row_list {
   overflow: hidden;
-  margin-bottom: 50px;
+  padding-top: 50px;
+}
+
+
+/*  page_top
+----------------------------------------*/
+#page_top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  background: #000000;
+  text-align: center;
+}
+#page_top a {
+  color: #fff;
+  font-style: bold;
+  line-height: 30px;
 }

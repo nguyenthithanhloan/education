@@ -32,7 +32,7 @@
   top: -20px;
   z-index: 5;
   display: table;
-  background-color: #6c7;
+  background-color: #000000;
 }
 .style_1 .captions .cat_name span {
   display: table-cell;
@@ -64,19 +64,21 @@
 ----------------------------------------*/
 .style_2 ul li {
   float: left;
-  width: 320px;
+  width: 260px;
+  position: relative;
 }
 .style_2 ul li + li {
-  margin-left: 10px;
+  padding-left: 60px;
+  margin-left: 40px;
 }
 .style_2 ul li .thumb {
-  width: 320px;
+  width: 260px;
   height: 171px;
   overflow: hidden;
   position: relative;
 }
 .style_2 ul li .thumb img {
-  width: 320px;
+  width: 260px;
   height: auto;
   -webkit-transform: scale(1,1);
   transform: scale(1,1);
@@ -84,7 +86,7 @@
   transition: transform .3s ease-out;
 }
 .style_2 .captions {
-  background: #14126f;
+  background: #000000;
   padding: 10px;
   color: #fff;
   margin-bottom: 5px;
@@ -97,4 +99,68 @@
   line-height: 1.5em;
   overflow: hidden;
   word-break: break-all;
+}
+.style_2 ul li.arrow:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:0px;
+  height:0px;
+  margin-top: 90px;
+  border-bottom:30px solid transparent;
+  border-top:30px solid transparent;
+  border-left:30px solid #2f2f2f;
+}
+
+/*----------------------------------------
+    style 2
+----------------------------------------*/
+.col_left {
+  float: left;
+}
+.col_right {
+  float: right;
+}
+.style_3 ul li {
+  overflow: hidden;
+}
+.style_3 ul li + li {
+  margin-top: 30px;
+}
+.style_3 ul li .thumb {
+  max-width: 400px;
+  width: 40.82%;
+  height: 250px;
+}
+.style_3 ul li .thumb img {
+  width: 100%;
+  height: auto;
+}
+.style_3 ul li .captions {
+  max-width: 550px;
+  width: 56%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.style_3 ul li .captions h2 {
+  margin-bottom: 15px;
+  padding-bottom: 18px;
+  position: relative;
+  font-size: 167%;
+}
+.style_3 ul li .captions h2:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 115%;
+  height: 0;
+  border-top: 1px solid #000000;
+}
+.style_3 li.item_1 .captions h2:after,
+.style_3 li.item_3 .captions h2:after {
+  right: auto;
+  left: 0;
 }

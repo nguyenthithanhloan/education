@@ -1,0 +1,699 @@
+@charset "shift_jis";
+
+/*----------------------------------------------------*/
+/* CSS Index
+
+- header
+- scratch page
+- top page
+- footer
+------------------------------------------------------*/
+
+.clearfix:after {
+  content:".";display:block;visibility:hidden;height:0.1px;font-size:0.1em;line-height:0;clear:both;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+.mt50 {
+  margin-top: 50px;
+}
+.mg_tb {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.mb90 {
+  margin-bottom: 90px;
+}
+.mt14 {
+  margin-top: 14px;
+}
+.mt12 {
+  margin-top: 12px;
+}
+/*--------------------------------------------------*/
+/* header
+----------------------------------------------------*/
+#header {
+	background:url(/pc/shopping/camp/2016_halloween/img/bg-header.png) left top no-repeat;
+	width: 1200px;
+}
+
+
+#header div.header_pack {
+	position: relative;
+	width: 1200px;
+}
+
+/*#header div.scratch_box {
+	background:url(../img_2013/bg_container_top.png) left top no-repeat;
+	width:932px;
+}
+*/
+#header div.logo {
+	height: 48px;
+	left: 168px;
+	position:absolute;
+	top: 12px;
+	width: 154px;
+	z-index:5;
+}
+
+#header h1 {
+	font-size:0;
+	height:326px;
+  margin-left: 390px;
+  padding: 97px 0 76px;
+  width:422px;
+}
+
+
+
+#header div.header_pack dl dt {
+	height: 33px;
+	left: 480px;
+	position: absolute;
+	top: 0;
+	width: 237px;
+	z-index: 5;
+}
+
+#header div.header_pack dl dd {
+	height: 84px;
+  position: absolute;
+  top: 8px;
+	left: 347px;
+	width: 122px;
+	z-index: 5;
+}
+#top #header p.txt_intro {
+  text-align: left;
+  padding-left: 222px;
+}
+
+#header .txt_halloween {
+  width: 780px;
+  height: 137px;
+  margin: 0 auto;
+  background: url(/pc/shopping/camp/2016_halloween/img/bg-halloween_txt.png) 0 0 no-repeat;
+  padding: 35px 48px 0;
+}
+#header .txt_halloween  p {
+  color: #000000;
+  font-size: 134%;
+  line-height: 1.5em;
+}
+#header .txt_halloween .txt_bold {
+  display: block;
+  font-weight: bold;
+}
+
+#top #header p.txt_intro {
+  padding-bottom: 55px;
+}
+
+/*--------------------------------------------------*/
+/* scratch page
+----------------------------------------------------*/
+#header div.lead_area {
+	margin:-5px 0 0 35px;
+	position:relative;
+	width:794px;
+}
+
+#header div.scratch_area {
+	height:344px;
+	position:absolute;
+	right:0;
+	top:11px;
+	width:298px;
+	z-index:5;
+}
+
+#header div.lead_area h2 {
+	font-size:0;
+	line-height:1;
+	margin-bottom:9px;
+}
+
+#header dl.how_to {
+	border:1px solid #ec6c00;
+	margin-left:50px;
+	padding:10px 0;
+	width:388px;
+}
+
+#header dl.how_to dt {
+	float:left;
+	font-size:0;
+	line-height:1;
+	margin-right:8px;
+	text-align:center;
+	width:168px;
+}
+
+#header dl.how_to dd {
+	overflow:hidden;
+	width:200px;
+	*zoom:1;
+}
+
+#header dl.how_to dd span {
+	display:block;
+	font-weight:bold;
+	line-height:1.4;
+	margin-bottom:5px;
+}
+
+#header dl.how_to dd a {
+	color:#ff0000;
+	font-weight:bold;
+}
+
+#header div.action_btn {
+	padding:22px 0 26px;
+	text-align:center;
+}
+
+#header dl.point_mail {
+	margin:0 auto 10px auto;
+	text-align:center;
+	width:800px;
+}
+
+#header dl.point_mail dt {
+	font-size:231%;
+	font-weight:bold;
+	line-height:1.4;
+}
+
+#header dl.point_mail dd {
+	color:#ff6600;
+	font-size:123.1%;
+}
+
+
+
+
+
+/* contents
+----------------------------------------------------*/
+
+#contents {
+  margin: 108px auto 0;
+  width: 822px;
+  position: relative;
+}
+#contents .wrap_peoduct_online .box_mid {
+  padding-top: 282px;
+  padding-left: 34px;
+  padding-right: 34px;
+}
+
+#contents div.spset_hd {
+	position: absolute;
+  top: -27px;
+  right: -23px;
+}
+
+#contents div.spset_hd h2 {
+	font-size:0;
+	line-height:1;
+}
+
+#contents div.spset_hd p {
+	left: 10px;
+	position: absolute;
+	top: 165px;
+	width: 600px;
+	z-index: 3;
+  font-size: 142%;
+}
+
+
+#contents div.slashbox01,
+#contents div.slashbox02 {
+	margin:0 auto 90px auto;
+	overflow:visible;
+	padding-bottom: 30px;
+	position:relative;
+}
+
+#contents div.slashbox01 {	background:url(/pc/shopping/camp/2016_halloween/img/bg-box01_btm.png) left bottom no-repeat;}
+#contents div.slashbox02 {	background:url(/pc/shopping/camp/2016_halloween/img/bg-box02_btm.png) left bottom no-repeat;}
+
+#contents div.slashbox01_top,
+#contents div.slashbox02_top {
+	padding-top: 75px;
+	width: 754px;
+}
+
+#contents div.slashbox01_top {	background:url(/pc/shopping/camp/2016_halloween/img/bg-box01_top.png) left top no-repeat;}
+#contents div.slashbox02_top {	background:url(/pc/shopping/camp/2016_halloween/img/bg-box02_top.png) left top no-repeat;}
+
+
+#contents div.slashbox01 h3,
+#contents div.slashbox02 h3 {
+	font-size:0;
+	line-height:1;
+	height: 151px;
+  position:absolute;
+	left: 0;
+	top: -90px;
+	width: 754px;
+	z-index:3;
+}
+
+#contents .slashbox01.edge,
+#contents .slashbox02.edge {
+  margin-bottom: 0;
+}
+
+#contents div.set_package {
+	padding: 0 22px 0 22px;
+	width: 710px;
+}
+#contents .photo_product {
+  margin-top: 5px;
+}
+#contents .txt_product {
+  margin-top: 8px;
+  padding-left: 5px;
+}
+
+#contents dl.setprice {
+	overflow: hidden;
+	z-index:3;
+  padding: 0 0 0 21px;
+  margin-top: 28px;
+}
+
+#contents dl.setprice .pdleft35 {
+  padding-left: 35px;
+}
+#contents dl.setprice .pdleft75 {
+  padding-left: 75px;
+}
+#contents dl.setprice .pdleft20 {
+  padding-left: 20px;
+}
+#contents dl.setprice.row dt {
+  float: none;
+}
+#contents dl.setprice.row dd {
+  float: none;
+  display: block;
+  text-align: center;
+}
+
+#contents dl.setprice dt {
+	float: left;
+  padding-right: 18px;
+}
+#contents .txt_more {
+  padding: 20px 0 0 25px;
+}
+#contents .wrap_honey_item .txt_more {
+  padding-left: 0;
+}
+#contents dl.setprice dd {
+	float: left;
+}
+
+#contents .txt_note_box {
+  text-align: center;
+  font-size: 117%;
+  padding: 25px 0 0;
+}
+
+
+#contents .wrap_honey_item .box_mid {
+  padding: 0 28px 0 29px;
+  width: 765px;
+}
+#contents .wrap_honey_item .box_mid ul {
+  margin-top: 30px;
+  padding: 0 6px;
+}
+#contents .wrap_honey_item .box_mid ul li {
+  float: left;
+  width: 343px;
+  position: relative;
+}
+#contents .wrap_honey_item .box_mid ul li:first-child {
+  padding-right: 32px;
+}
+#contents .wrap_honey_item .box_mid ul li + li {
+  border-left: 1px solid #000000;
+  padding-left: 34px;
+}
+#contents .wrap_honey_item .box_mid .mt18 {
+  margin-top: 18px;
+}
+#contents .wrap_honey_item .img_special {
+  position: absolute;
+  top: -8px;
+  right: -50px;
+  z-index: 10;
+}
+#contents .item_one {
+  position: relative;
+  margin-top: 25px;
+}
+#contents .item_one .img_special {
+  top: -8px !important;
+  right: -10px !important;
+}
+#contents .item_one .img_pumkin {
+  top: 66px !important;
+  right: -3px !important;
+}
+
+#contents .wrap_honey_item ul li:first-child .img_special {
+  right: -31px;
+}
+
+#contents .wrap_honey_item .img_pumkin {
+  position: absolute;
+  top: 66px;
+  right: -45px;
+  z-index: 20;
+}
+#contents .wrap_honey_item .img_special.position_o {
+  top: -9px;
+}
+#contents .wrap_honey_item li:first-child .img_pumkin {
+  right: -26px;
+}
+
+#contents .wrap_surprise {
+  margin-top: 30px;
+  clear: both;
+}
+#contents .wrap_surprise h3 {
+  padding: 0 6px;
+}
+#contents .wrap_surprise ul.mt22 {
+  margin-top: 22px;
+}
+
+#contents .wrap_cosmetic_item {
+  margin-top: 15px;
+}
+
+
+
+#contents .wrap_cosmetic_item .box_mid {
+  padding: 0 28px 0 29px;
+  width: 765px;
+}
+#contents .wrap_cosmetic_item h3 {
+  text-align: center;
+}
+#contents .wrap_cosmetic_item .box_mid ul {
+  margin-top: 30px;
+  padding: 0 6px;
+}
+#contents .wrap_cosmetic_item .box_mid ul li {
+  float: left;
+  width: 343px;
+  position: relative;
+}
+#contents .wrap_cosmetic_item .box_mid ul li:first-child {
+  padding-right: 32px;
+}
+#contents .wrap_cosmetic_item .box_mid ul li + li {
+  border-left: 1px solid #000000;
+  padding-left: 34px;
+}
+#contents .wrap_cosmetic_item .price_cosmetic {
+  margin: 14px 0 11px;
+  text-align: center;
+}
+#contents .wrap_cosmetic_item ul.mt20 {
+  margin-top: 20px;
+}
+
+
+/*--------------------------------------------------*/
+/* top page
+----------------------------------------------------*/
+
+.bg_main {
+  width: 1200px;
+  background:url(/pc/shopping/camp/2016_halloween/img/bg-main.jpg) top left repeat-y;
+  margin-top: 10px;
+}
+.bg_wrapper {
+  background:url(/pc/shopping/camp/2016_halloween/img/bg-main_top.png) top center no-repeat;
+  width: 1200px;
+}
+.bg_bottom {
+  background: url(/pc/shopping/camp/2016_halloween/img/bg-bottom.png) bottom center no-repeat;
+  padding: 0 124px 230px;
+  width: 952px;
+}
+
+#top div.present_list {
+	margin: 0 auto;
+	padding: 10px 0 0;
+  background: url(/pc/shopping/camp/2016_halloween/img/bg-present_list.png) center 315px  no-repeat;
+}
+
+#top div.present_list ul {
+	margin: 0 auto 15px;
+	width: 776px;
+}
+
+#top div.present_list ul li,
+#top div.present_list p {
+	font-size:0;
+	line-height:1;
+}
+
+#top div.present_list p.coupon_att {
+	text-align:center;
+	margin-bottom: 45px;
+}
+
+#top div.scratch_btn {
+	text-align:center;
+	overflow:visible;
+	padding: 32px 0 21px;
+	position:relative;
+}
+
+#top div.scratch_btn .txt_fukidashi {
+	position: absolute;
+  top: 7px;
+  left: 57px;
+  width: 117px;
+  height: 100px;
+  z-index: 100;
+}
+
+/*#top div.scratch_btn input[type=image]:hover {
+	filter:alpha(opacity=100);
+	-moz-opacity:1;
+	opacity:1;
+}
+*/
+#top div.merit_box {
+	position:relative;
+	width: 822px;
+  margin: 70px auto 0;
+}
+#top div.merit_box h2 {
+  position: absolute;
+  left: 48px;
+  top: -43px;
+}
+
+#top div.merit_box h2,
+#top div.merit_box ul li {
+	font-size:0;
+	line-height:1;
+}
+#top div.merit_box .box_mid {
+  padding-top: 38px;
+}
+
+/* .list01_product
+----------------------------------------------------*/
+
+.list01_product {
+  width: 822px;
+  margin: 0 auto;
+}
+.list01_product ul li {
+  float: left;
+  width: 362px;
+  position: relative;
+}
+.list01_product ul li:first-child {
+  padding-right: 30px;
+}
+.list01_product ul + ul {
+  margin-top: 45px;
+}
+.list01_product ul li .num_product {
+  display: block;
+  position: absolute;
+  top: -33px;
+  left: -15px;
+}
+.list01_product_wrap {
+  padding-top: 10px;
+}
+.list01_product ul li p {
+  font-size: 142%;
+  padding-top: 5px;
+}
+
+/* box
+----------------------------------------------------*/
+
+.box_top {
+  width: 822px;
+  padding-top: 33px;
+  background: url(/pc/shopping/camp/2016_halloween/img/bg-content_top.png) top left no-repeat;
+}
+.box_bot {
+  width: 822px;
+  padding-bottom: 33px;
+  background: url(/pc/shopping/camp/2016_halloween/img/bg-content_bot.png) bottom left no-repeat;
+}
+
+.box_mid {
+  width: 754px;
+  background: url(/pc/shopping/camp/2016_halloween/img/bg-content_mid.png) top left repeat-y;
+  padding: 0 34px;
+}
+
+/* socialchip
+----------------------------------------------------*/
+
+#socialchip {
+	background:url(/pc/shopping/camp/2016_halloween/img/bg-socialchip.png) left top no-repeat;
+	height: 363px;
+	top: 0;
+	position: absolute;
+	right: 14px;
+	width: 100px;
+	z-index: 5;
+  margin-top: 500px;
+}
+
+#socialchip dl {
+	padding-top: 144px;
+	width:100px;
+}
+
+#socialchip dl dt {
+	font-size:0;
+	line-height:1;
+	margin-bottom:30px;
+	text-align:center;
+}
+
+#socialchip dl dd {
+	display: block;
+	margin:0 0 15px 10px;/* */
+  height: 60px;
+}
+
+#socialchip dl dd.fb {
+	margin:0 0 15px 10px;/* */
+}
+
+#socialchip dl dd.mx {
+	margin:0 0 15px 10px;/* */
+	/*width:58px;*/
+}
+
+
+/*--------------------------------------------------*/
+/* footer
+----------------------------------------------------*/
+#footer {
+	background:url(/pc/shopping/camp/2016_halloween/img/bg-line_dot.gif) left top repeat-x;
+	clear:both;
+	margin:0 auto;
+	padding-top:10px;
+	text-align:center;
+	width:900px;
+}
+
+#footer p.footer_navi {
+	background:url(/pc/shopping/camp/2016_halloween/img/bg-line_dot.gif) left bottom repeat-x;
+	padding-bottom:10px;
+}
+
+#footer p,
+#footer p a:link,
+#footer p a:visited {
+	color:#996600;
+}
+
+#footer div {
+	background:url(/pc/shopping/camp/2016_halloween/img/bg-footer.gif) left top repeat;
+	font-size:93%;
+	padding:10px 0;
+}
+
+
+
+/*--------------------------------------------------*/
+/* character_move
+----------------------------------------------------*/
+.ghost02 {
+  position: absolute;
+  top: 195px;
+  left: 39px;
+  z-index: 100;
+}
+.ghost01 {
+  position: absolute;
+  top: 89px;
+  left: 300px;
+  z-index: 100;
+}
+.star01 {
+  position: absolute;
+  top: 5px;
+  left: 59px;
+  z-index: 100;
+}
+.star02 {
+  position: absolute;
+  top: 40px;
+  right: 425px;
+  z-index: 100;
+}
+.star03 {
+  position: absolute;
+  top: 116px;
+  left: 23px;
+  z-index: 100;
+}
+
+
+/**
+ * Ghost styles
+ */
+.ghost {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  z-index: 10001;
+  display: block;
+  opacity: 0.8;
+  background: transparent url(/pc/shopping/camp/2016_halloween/img/img-ghost02.png) no-repeat;
+}
+.ghost.moving-left {
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+}

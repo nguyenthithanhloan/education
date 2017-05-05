@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/*----------------------------------------
+    style 1
+----------------------------------------*/
+
+/*  小見出し
+----------------------------------------*/
+#container {
+width: 326px;
+margin: 50px auto;
+}
+#banner {
+    border: 3px solid #CCCCCC;
+    margin-bottom: 5px;
+}
+#banner ul {
+    list-style: none;
+    position: relative;
+    margin-left: 0px;
+    overflow: hidden;
+    width:320px;
+    height: 213px;
+}
+#banner ul li {
+    float: left;
+    width: 320px;
+    position: absolute;
+}
+div#pagenation {
+   position: relative;
+   overflow: hidden;
+   top: -30px;
+}
+
+div#pagenation ul {
+    position:relative;
+    left:50%;
+    float:left;
+    list-style: none;
+}
+div#pagenation li {
+   position:relative;
+   left:-50%;
+   float:left;
+   margin: 0 2px;
+
+}
+div#pagenation li a {
+    width:12px;
+    height:12px;
+    overflow:hidden;
+    display:block;
+    background-image:url(../img/pagenation.gif);
+    background-position:0 0;
+}
+div#pagenation li.active a,
+div#pagenation li a:hover {
+    background-position:0 12px;
+}
+div#pagenation li a img {
+    visibility:hidden;
+    display: none;
+}
+#btn-prev {
+    position: relative;
+    left: -40px;
+    top: -130px;
+}
+#btn-next {
+    position: relative;
+    left: 305px;
+    top: -130px;
+}

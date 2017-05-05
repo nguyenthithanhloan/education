@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+/*----------------------------------------
+    style 1
+----------------------------------------*/
+.inner {
+  width: 100%;
+}
+/*  小見出し
+----------------------------------------*/
+.contents {
+  width: 520px;
+  margin: 0 auto;
+  padding: 27px 0 80px;
+  position: relative;
+}
+.wraper_slider {
+    width: 439px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+.halloween_slider {
+    position: relative;
+    width: 100%;
+}
+.slider_recipes {
+  padding: 60px 0 42px;
+  background: url(../img/bg-slider_recipes.png) no-repeat top center;
+  -webkit-transform-origin: 274px 10px;
+  -ms-transform-origin: 274px 10px;
+  transform-origin: 274px 10px;
+}
+.photo_slider {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-prev {
+  position: absolute;
+  top: 45%;
+  margin-top: 0 !important;
+  left: 11px;
+  cursor: pointer;
+  background: none;
+  width: 30px;
+  height: 105px;
+  cursor: pointer;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-next {
+  position: absolute;
+  top: 37%;
+  margin-top: 0 !important;
+  right: 11px;
+  cursor: pointer;
+  background: none;
+  width: 30px;
+  height: 105px;
+  cursor: pointer;
+}
+
+
+
+.modern .shake_panel {
+  animation: rotate 1.3s ease-in-out infinite alternate;
+}
+.modern .shake_panel:hover {
+  animation-play-state: paused;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
